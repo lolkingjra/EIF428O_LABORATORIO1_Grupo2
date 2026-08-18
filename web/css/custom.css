@@ -1,0 +1,63 @@
+/* ==========================================================================
+   PERSONALIZACIÓN DE COLORES INSTITUCIONALES - UNIVERSIDAD NACIONAL (UNA)
+   EIF428O - Fundamentos de Programación Web | Laboratorio #1
+   ========================================================================== */
+
+:root {
+    --color-rojo-una: #CD1719;
+    --color-azul-una: #034991;
+    --color-gris-una: #A7A7A9;
+}
+
+/* Sobrescritura de variables y estilos de Bootstrap para la paleta UNA */
+.bg-una-rojo {
+    background-color: var(--color-rojo-una) !important;
+}
+
+.bg-una-azul {
+    background-color: var(--color-azul-una) !important;
+}
+
+.bg-una-gris {
+    background-color: var(--color-gris-una) !important;
+}
+
+.text-una-rojo {
+    color: var(--color-rojo-una) !important;
+}
+
+.text-una-azul {
+    color: var(--color-azul-una) !important;
+}
+
+.text-una-gris {
+    color: var(--color-gris-una) !important;
+}
+
+/* Botones principales con el color primario de la UNA */
+.btn-primary {
+    color: #fff;
+    background-color: var(--color-rojo-una);
+    border-color: var(--color-rojo-una);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    color: #fff;
+    background-color: #a81214;
+    border-color: #a81214;
+}
+
+/* Enlaces y acentos */
+a {
+    color: var(--color-azul-una);
+}
+
+a:hover {
+    color: var(--color-rojo-una);
+}
+
+.text-primary {
+    color: var(--color-rojo-una) !important;
+}
