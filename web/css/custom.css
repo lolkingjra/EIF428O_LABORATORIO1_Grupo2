@@ -1,15 +1,9 @@
-/* ==========================================================================
-   PERSONALIZACIÓN DE COLORES INSTITUCIONALES - UNIVERSIDAD NACIONAL (UNA)
-   EIF428O - Fundamentos de Programación Web | Laboratorio #1
-   ========================================================================== */
-
 :root {
     --color-rojo-una: #CD1719;
     --color-azul-una: #034991;
     --color-gris-una: #A7A7A9;
 }
 
-/* Sobrescritura de variables y estilos de Bootstrap para la paleta UNA */
 .bg-una-rojo {
     background-color: var(--color-rojo-una) !important;
 }
@@ -34,30 +28,249 @@
     color: var(--color-gris-una) !important;
 }
 
-/* Botones principales con el color primario de la UNA */
-.btn-primary {
+.text-primary {
+    color: var(--color-azul-una) !important;
+}
+
+#mainNav {
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+#mainNav.navbar-shrink {
+    background-color: var(--color-azul-una);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#mainNav .navbar-brand {
     color: #fff;
-    background-color: var(--color-rojo-una);
-    border-color: var(--color-rojo-una);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#mainNav .navbar-brand:hover {
+    color: var(--color-gris-una);
+}
+
+#mainNav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    transition: color 0.2s ease;
+}
+
+#mainNav .nav-link:hover {
+    color: #fff;
+}
+
+#mainNav .navbar-toggler {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.masthead {
+    background-color: var(--color-azul-una);
+    background-image: none;
+}
+
+.masthead h1 {
+    color: #fff !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: #fff !important;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.masthead h2 {
+    color: var(--color-gris-una) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-azul-una);
+    border-color: var(--color-azul-una);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1.8rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
+    background-color: var(--color-rojo-una);
+    border-color: var(--color-rojo-una);
     color: #fff;
-    background-color: #a81214;
-    border-color: #a81214;
+    transform: translateY(-2px);
 }
 
-/* Enlaces y acentos */
 a {
     color: var(--color-azul-una);
+    transition: color 0.2s ease;
 }
 
 a:hover {
     color: var(--color-rojo-una);
 }
 
-.text-primary {
+.about-section {
+    background-color: var(--color-azul-una) !important;
+    border-top: 6px solid var(--color-gris-una);
+}
+
+.about-section h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.bg-black {
+    background-color: var(--color-gris-una) !important;
+}
+
+.projects-section {
+    border-top: 6px solid var(--color-gris-una);
+}
+
+.contact-section {
+    border-top: 6px solid var(--color-gris-una);
+}
+
+.footer {
+    background-color: var(--color-azul-una) !important;
+    border-top: 6px solid var(--color-gris-una);
+}
+
+#productos h2 {
+    color: var(--color-azul-una);
+    font-weight: 700;
+}
+
+#grilla-productos .card {
+    border: 1px solid var(--color-gris-una);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#grilla-productos .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(3, 73, 145, 0.18) !important;
+}
+
+#grilla-productos .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#grilla-productos .card-title {
+    color: var(--color-azul-una);
+    font-weight: 700;
+}
+
+#grilla-productos .card-text {
+    color: var(--color-gris-una);
+}
+
+#grilla-productos .fw-bold {
+    color: var(--color-rojo-una);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.contact-section {
+    background-color: var(--color-azul-una) !important;
+    border-top: 6px solid var(--color-gris-una);
+}
+
+.contact-section .card .text-primary {
     color: var(--color-rojo-una) !important;
+    font-size: 1.4rem;
+}
+
+.about-section p strong {
+    color: var(--color-rojo-una);
+    font-weight: 700;
+}
+
+#contacto h2 {
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 3px solid var(--color-rojo-una);
+    display: inline-block;
+    padding-bottom: 0.4rem;
+}
+
+#formulario-contacto .form-label {
+    color: var(--color-gris-una);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#formulario-contacto .form-control {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid var(--color-gris-una);
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#formulario-contacto .form-control::placeholder {
+    color: var(--color-gris-una);
+    opacity: 0.9;
+}
+
+#formulario-contacto .form-control:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.contact-section .card {
+    border: 1px solid var(--color-gris-una);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.contact-section .card hr {
+    border-color: var(--color-rojo-una);
+    border-width: 2px;
+    opacity: 1;
+}
+
+.contact-section .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.contact-section .card h4 {
+    color: var(--color-azul-una);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+}
+
+.contact-section .text-black-50 {
+    color: #444 !important;
+}
+
+.contact-section .text-black-50 a {
+    color: var(--color-azul-una);
+}
+
+.social a {
+    color: var(--color-gris-una);
+    font-size: 1.5rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.social a:hover {
+    color: #fff;
+    transform: scale(1.2);
 }
