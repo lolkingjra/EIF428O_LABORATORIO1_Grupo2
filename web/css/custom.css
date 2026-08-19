@@ -89,9 +89,9 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  color: #A7A7A9;
+  color: var(--color-gris-una);
   background: none;
-  -webkit-text-fill-color: #A7A7A9;
+  -webkit-text-fill-color: var(--color-gris-una);
   -webkit-background-clip: unset;
           background-clip: unset;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
@@ -157,10 +157,11 @@ a:hover {
     color: var(--color-rojo-una);
 }
 
-.about-section {
+/*.about-section {
     background-color: var(--color-azul-una) !important;
     border-top: 6px solid var(--color-gris-una);
 }
+    */
 
 .about-section h2 {
     color: #fff;
