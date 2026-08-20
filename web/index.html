@@ -217,24 +217,27 @@
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-8">
                     <h2 class="text-white text-center mb-4">Contáctenos</h2>
-                    <form id="formulario-contacto">
+                    <form id="formulario-contacto" novalidate>
                         <!-- Nombre -->
                         <div class="mb-3">
-                            <label for="inputNombre" class="form-label text-white-50">Nombre completo</label>
+                            <label for="inputNombre" class="form-label text-white fw-bold">NOMBRE COMPLETO *</label>
                             <input class="form-control" id="inputNombre" type="text" placeholder="Su nombre..."
                                 required />
+                            <div class="invalid-feedback">Por favor, ingrese su nombre completo.</div>
                         </div>
                         <!-- Correo -->
                         <div class="mb-3">
-                            <label for="inputCorreo" class="form-label text-white-50">Correo electrónico</label>
+                            <label for="inputCorreo" class="form-label text-white fw-bold">CORREO ELECTRÓNICO *</label>
                             <input class="form-control" id="inputCorreo" type="email" placeholder="correo@ejemplo.com"
                                 required />
+                            <div class="invalid-feedback">Por favor, ingrese un correo electrónico válido.</div>
                         </div>
                         <!-- Mensaje -->
                         <div class="mb-3">
-                            <label for="inputMensaje" class="form-label text-white-50">Mensaje</label>
+                            <label for="inputMensaje" class="form-label text-white fw-bold">MENSAJE *</label>
                             <textarea class="form-control" id="inputMensaje" rows="5"
                                 placeholder="Escriba su mensaje aquí..." required></textarea>
+                            <div class="invalid-feedback">Por favor, escriba su mensaje.</div>
                         </div>
                         <!-- Botón enviar -->
                         <div class="d-grid">
