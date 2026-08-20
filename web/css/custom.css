@@ -130,7 +130,7 @@
 
 
 .btn-primary {
-    background-color: var(--color-azul-una);
+    background-color: #044485;
     border-color: var(--color-azul-una);
     color: #fff;
     font-weight: 700;
@@ -173,16 +173,13 @@ a:hover {
 }
 
 .projects-section {
-    border-top: 6px solid var(--color-gris-una);
 }
 
 .contact-section {
-    border-top: 6px solid var(--color-gris-una);
 }
 
 .footer {
-    background-color: var(--color-azul-una) !important;
-    border-top: 6px solid var(--color-gris-una);
+    background-color: #A7A7A9 !important;
 }
 
 #productos h2 {
@@ -224,7 +221,6 @@ a:hover {
 
 .contact-section {
     background-color: var(--color-azul-una) !important;
-    border-top: 6px solid var(--color-gris-una);
 }
 
 .contact-section .card .text-primary {
