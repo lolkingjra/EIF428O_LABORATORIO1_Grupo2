@@ -14,6 +14,11 @@ Este repositorio contiene la solución al **Laboratorio #1** del curso **EIF428O
 * **Docente:** M.Sc. Olivier Blanco Sandí
 * **Grupo:** Grupo 2
 
+**Integrantes:**
+* Justin Moreira Matarrita
+* Luis Rosales Vargas
+* José Rodríguez Arias
+
 ---
 
 ## 🌿 Descripción del Proyecto
